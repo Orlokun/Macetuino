@@ -7,8 +7,9 @@ class Macetuino
 {
 public:
 Macetuino(int PinS);
+float read();
+int PinS;
 private:
-int _PinS;
 int _inS;
 int _outS;
 };
