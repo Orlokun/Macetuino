@@ -6,8 +6,10 @@
 class Macetuino
 {
 public:
-Macetuino();
+Macetuino(int PinS);
 private:
+int _PinS;
+float _inS;
 };
 
 #endif
