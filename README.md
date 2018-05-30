@@ -1,2 +1,2 @@
 # Macetuino
-Macetuino 5°
+Macetero impulsado con Arduino
