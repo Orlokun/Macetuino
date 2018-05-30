@@ -9,7 +9,8 @@ public:
 Macetuino(int PinS);
 private:
 int _PinS;
-float _inS;
+int _inS;
+int _outS;
 };
 
 #endif

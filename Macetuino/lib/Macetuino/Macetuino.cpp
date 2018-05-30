@@ -7,6 +7,14 @@ Macetuino::Macetuino(int _PinS = PinS) :
         pinMode(_PinS, INPUT);
 }
 
-void Macetuino::read(){
+float Macetuino::read(){
 
+        //Se lee el valor de entrada del sensor
+        _inS = AnalogRead(_PinS);
+
+        //Mapeo a un valor utilizable
+        _outS = map(inS, 1023, 0, 0, 100);
+
+        //Devolver el valor a Main
+        return outS;
 }
