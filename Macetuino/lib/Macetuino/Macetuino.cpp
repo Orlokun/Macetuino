@@ -14,7 +14,7 @@ float Macetuino::read(){
         _inS = analogRead(PinS);
 
         //Mapeo a un valor utilizable
-        _outS = map(_inS, 1023, 0, 0, 100);
+        _outS = map(_inS, 1023, 0, 100, 0);
 
         //Devolver el valor a Main
         return _outS;
