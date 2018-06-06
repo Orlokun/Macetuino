@@ -27,11 +27,11 @@ void loop() {
                 digitalWrite(ledroja, LOW);
                 digitalWrite(ledverde, HIGH);
         }
-        else if(val <= 50 && val > 80) {
+        else if(val <= 50 && val > 20) {
                 digitalWrite(ledverde, LOW);
                 digitalWrite(ledroja, HIGH);
         }
-        else if(val <= 80) {
+        else if(val <= 20) {
                 digitalWrite(ledverde, LOW);
                 digitalWrite(ledroja, HIGH);
 
